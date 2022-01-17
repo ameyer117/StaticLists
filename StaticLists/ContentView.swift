@@ -37,7 +37,13 @@ struct ContentView: View {
                 }.onDelete(perform: self.deleteRow)
                     .onMove(perform: self.moveRow)
             }.listStyle(.plain)
-            .searchable(text: $searchText)
+                .searchable(text: $searchText)
+//            AUTOCOMPLETE FOR SEARCH!
+//            {
+//                    ForEach(searchResults) { result in
+//                        Text(result.city).searchCompletion(result.city)
+//                    }
+//                }
             .navigationTitle("Weather")
                 .toolbar {
                     ToolbarItemGroup(placement: .navigationBarTrailing) {
