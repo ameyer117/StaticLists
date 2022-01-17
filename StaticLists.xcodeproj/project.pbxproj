@@ -14,6 +14,8 @@
 		70C55A912795A6720074F2FA /* StaticListsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C55A902795A6720074F2FA /* StaticListsTests.swift */; };
 		70C55A9B2795A6720074F2FA /* StaticListsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C55A9A2795A6720074F2FA /* StaticListsUITests.swift */; };
 		70C55A9D2795A6720074F2FA /* StaticListsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C55A9C2795A6720074F2FA /* StaticListsUITestsLaunchTests.swift */; };
+		70C55AAA2795A9250074F2FA /* WeatherInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C55AA92795A9250074F2FA /* WeatherInfo.swift */; };
+		70C55AAC2795A97D0074F2FA /* WeatherRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C55AAB2795A97D0074F2FA /* WeatherRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		70C55A962795A6720074F2FA /* StaticListsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StaticListsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70C55A9A2795A6720074F2FA /* StaticListsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticListsUITests.swift; sourceTree = "<group>"; };
 		70C55A9C2795A6720074F2FA /* StaticListsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticListsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		70C55AA92795A9250074F2FA /* WeatherInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherInfo.swift; sourceTree = "<group>"; };
+		70C55AAB2795A97D0074F2FA /* WeatherRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				70C55A812795A6710074F2FA /* ContentView.swift */,
 				70C55A832795A6720074F2FA /* Assets.xcassets */,
 				70C55A852795A6720074F2FA /* Preview Content */,
+				70C55AA92795A9250074F2FA /* WeatherInfo.swift */,
+				70C55AAB2795A97D0074F2FA /* WeatherRow.swift */,
 			);
 			path = StaticLists;
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			files = (
 				70C55A822795A6710074F2FA /* ContentView.swift in Sources */,
 				70C55A802795A6710074F2FA /* StaticListsApp.swift in Sources */,
+				70C55AAA2795A9250074F2FA /* WeatherInfo.swift in Sources */,
+				70C55AAC2795A97D0074F2FA /* WeatherRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
